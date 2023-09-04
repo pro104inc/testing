@@ -6,9 +6,9 @@ from prompts import Ideas
 
 current_model = "gpt-3.5-turbo"
 
+input_text = "ai trading bot"
 
-
-prompt = "Ideas.domain_brand_names.format(Niche=input_text)"
+prompt = Ideas.domain_brand_names.format(Niche=input_text)
 
 
 
