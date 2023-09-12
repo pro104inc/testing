@@ -2,7 +2,7 @@ import openai
 import tiktoken
 import newspaper
 
-openai.api_key = "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"
+openai.api_key = "removed"
 
 current_model = "gpt-3.5-turbo"
 
