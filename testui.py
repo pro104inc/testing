@@ -54,7 +54,7 @@ if st.button("Scrape Information"):
             else:
                 st.write("Failed to retrieve data from the whitepaper.")
         except Exception as e:
-            st.write("An error occurred:", str(e)
+            st.write("An error occurred:", str(e))
 
     # Step 3: Call the scraping functions
     if website_url:

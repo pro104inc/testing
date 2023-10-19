@@ -43,7 +43,7 @@ def tool_1_prompt(api_key):
         st.write(result)
 
 
-def tool_2_analyzer(api_key):
+def tool_2_blog_url(api_key):
     st.title("Blog AI Automator")
     blog_url = st.text_input("Enter Blog URL:")
     user_prompt = st.text_area("Enter Prompt:")
